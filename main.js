@@ -25,6 +25,19 @@ function createWindow () {
   // Open the DevTools.
   mainWindow.webContents.openDevTools()
 
+  console.log(mainWindow.webContents.printerList());
+
+  // mainWindow.webContents.print({
+  //   silent: true,
+  //   useBackground: false,
+  //   deviceName: '_192_168_1_101',
+  // });
+  mainWindow.webContents.print({
+    silent: true,
+    useBackground: false,
+    deviceName: 'Zebra_LP2844',
+  });
+
   // Emitted when the window is closed.
   mainWindow.on('closed', function () {
     // Dereference the window object, usually you would store windows

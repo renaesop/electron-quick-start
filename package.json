@@ -4,7 +4,7 @@
   "description": "A minimal Electron application",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "/Users/fed/ClionProjects/electron/out/D/Electron.app/Contents/MacOS/Electron ."
   },
   "repository": "https://github.com/electron/electron-quick-start",
   "keywords": [
